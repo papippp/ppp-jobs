@@ -75,7 +75,7 @@ export default function Hero() {
 
                 </Carousel>
                 <div className="fixed-read-more">
-                    <Button variant="primary" size="lg" className="rounded-pill px-4">
+                    <Button href="#about" variant="primary" size="lg" className="rounded-pill px-4">
                         Read More
                     </Button>
                 </div>

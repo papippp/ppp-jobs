@@ -1,6 +1,5 @@
-import { Container, Navbar, Nav, Button } from "react-bootstrap";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Button, Container, Nav, Navbar } from "react-bootstrap";
 
 export default function NavBar() {
     const [expanded, setExpanded] = useState(false);
