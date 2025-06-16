@@ -10,7 +10,7 @@ export default function Hero() {
     }
     return (
         <section id="home">
-            <div className="hero-carousel-container">
+            <div className="hero-carousel-container" style={{ paddingTop: "80px" }}>
                 <Carousel fade interval={5000} controls={true} indicators={true} activeIndex={index} onSelect={handleSelect} >
                     {/* Slide 1 */}
                     <Carousel.Item>
